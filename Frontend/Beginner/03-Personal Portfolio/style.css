@@ -1,0 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+  }
+
+  header {
+    margin: 1rem;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  nav li {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    float: right;
+  }
+
+  nav span {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    float: left;
+  }
+
+  nav img {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    float: left;
+  }
+
+  #hero {
+    text-align: center;
+    color: #333;
+    position: relative;
+    padding: 4rem;
+  }
+
+  #personal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+
+  article {
+    border: solid 1.5px;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  article h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  #projects ul li {
+    padding: 0.5rem;
+    padding-left: 3rem;
+    border-bottom: solid 1.5px;
+  }
+
+  #experience-1 {
+    padding: 0.5rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #experience-2 {
+    padding: 0.5rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #edu {
+    margin: 1rem;
+  }
+
+  #course {
+    margin: 1rem;
+  }
+
+  #education ul {
+    padding-left: 3rem;
+  }
+
+  #reviews h3 {
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .rev-list {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .rev {
+    padding: 1.5rem;
+    border: solid 2px;
+    border-radius: 1.5rem;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: auto;
+  }
+
+  #contact {
+    padding: 1rem;
+  }
+
+  #contact ul {
+    padding-left: 3rem;
+  }
+
+  #articles {
+    padding: 1rem;
+  }
+
+  #articles ul {
+    padding-left: 3rem;
+  }
+
+  #project {
+    padding: 1rem;
+  }
+
+  #project ul {
+    padding-left: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+  }
+
+  header {
+    margin: 1rem;
+  }
+
+  nav img {
+    display: block;
+    margin: auto;
+  }
+
+  nav span {
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+  }
+
+  #hero {
+    text-align: center;
+    color: #333;
+    position: relative;
+    padding: 2.5rem;
+  }
+
+  #personal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    border: solid 1.5px;
+  }
+
+  article h3 {
+    text-align: center;
+    padding: 0.8rem;
+    border-bottom: solid 1.5px;
+  }
+
+  #projects ul li {
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom: solid 1.5px;
+  }
+
+  #experience-1 {
+    padding: 1rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: solid 2px;
+  }
+
+  #experience-2 {
+    padding: 0.5rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #edu {
+    padding: 1rem;
+  }
+
+  #course {
+    padding: 1rem;
+  }
+
+  #education ul {
+    padding: 1rem;
+    padding-left: 3rem;
+  }
+
+  #reviews h3 {
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .rev-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .rev {
+    padding: 1.5rem;
+    border: solid 2px;
+    border-radius: 1.5rem;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: auto;
+  }
+
+  #contact {
+    padding: 1rem;
+  }
+
+  #contact ul {
+    padding-left: 3rem;
+  }
+
+  #articles {
+    padding: 1rem;
+  }
+
+  #articles ul {
+    padding-left: 3rem;
+  }
+
+  #project {
+    padding: 1rem;
+  }
+
+  #project ul {
+    padding-left: 3rem;
+  }
+}

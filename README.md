@@ -34,7 +34,11 @@ A selection of Frontend Projects found in roadmap.sh
 #### Beginner
 
 [Single Page CV](https://roadmap.sh/projects/single-page-cv)
+[Vote for my solution](https://roadmap.sh/projects/single-page-cv/solutions?u=6a7e48fecb44947deb7a7bdc)
+
 [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+[Vote for my solution](https://roadmap.sh/projects/basic-html-website/solutions?u=6a7e48fecb44947deb7a7bdc)
+
 [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 [Changelog Component](https://roadmap.sh/projects/changelog-component)
 [Testimonial cards](https://roadmap.sh/projects/testimonial-cards)
