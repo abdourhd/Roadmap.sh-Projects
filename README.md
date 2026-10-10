@@ -40,6 +40,8 @@ A selection of Frontend Projects found in roadmap.sh
 [Vote for my solution](https://roadmap.sh/projects/basic-html-website/solutions?u=6a7e48fecb44947deb7a7bdc)
 
 [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+[Vote for my solution](https://roadmap.sh/projects/portfolio-website/solutions?u=6a7e48fecb44947deb7a7bdc)
+
 [Changelog Component](https://roadmap.sh/projects/changelog-component)
 [Testimonial cards](https://roadmap.sh/projects/testimonial-cards)
 [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)
